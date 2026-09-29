@@ -54,3 +54,12 @@ chmod +x salon.sh
 ./salon.sh
 ./salon.sh
 git add .
+git commit -m "Not that bad this time, was actually pretty fun"
+git remote -v
+git add remote origin "https://Hanouoiio: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@github.com/Hanouoiio/fCC_projects.git "
+git remote add origin https://github.com/Hanouoiio/fCC_projects.git
+\ls
+git branch
+git fetch origin
+git checkout -b salon
+git add .
