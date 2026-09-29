@@ -156,3 +156,14 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git init
 git status
 git add .
+git commit -m "First commit"
+git remote -v
+git branch -M main
+git push -u origin main
+git push //https:Hanouoiio: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@github.com/Hanouoiio/fCC_Salon_project main --force
+git status
+git push //https:Hanouoiio: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@github.com/Hanouoiio/fCC_Salon_project main --force
+pwd
+ls --color=auto -la
+git init
+git add .
