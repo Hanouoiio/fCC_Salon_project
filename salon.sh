@@ -6,6 +6,8 @@ echo -e "\n~~ Hello thy, who dareth come forth before Me ~~\n"
 
 # Loop until a valid service ID is selected
 SERVICE_NAME=""
+INVALID_SELECTION=0
+
 while [[ -z $SERVICE_NAME ]]
 do
   if [[ $INVALID_SELECTION -eq 1 ]]
@@ -25,11 +27,17 @@ do
   # Read selected service ID
   read SERVICE_ID_SELECTED
 
-  # Validate selection
-  SERVICE_NAME="$($PSQL "SELECT name FROM services WHERE service_id = $SERVICE_ID_SELECTED")"
-  
-  # show error if no service_name
-  INVALID_SELECTION=1
+  # Validate that selection is a number before running SQL
+  if [[ $SERVICE_ID_SELECTED =~ ^[0-9]+$ ]]
+  then
+    SERVICE_NAME="$($PSQL "SELECT name FROM services WHERE service_id = $SERVICE_ID_SELECTED")"
+  fi
+
+  # If service_name is still empty, flag invalid selection to re-prompt
+  if [[ -z $SERVICE_NAME ]]
+  then
+    INVALID_SELECTION=1
+  fi
 done
 
 # Read phone number
