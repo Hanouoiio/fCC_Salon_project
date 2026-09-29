@@ -86,3 +86,26 @@ git branch
 git checkout master
 git status
 git add .
+git comiit
+git commit
+git commit -m "Had some problems, but its fine"
+git status
+git remote remove origin
+git remote add origin https://github.com/Hanouoiio/fCC-salon-appointment-scheduler.git
+git branch
+git branch -M main
+git push -u origin
+git push -u origin main --force
+git remote remove origin
+git remote add origin https://github.com/Hanouoiio/fCC_Salon_project
+git branch -M main
+git push -u origin main --force
+git push //https:Hanouoiio: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@github.com/Hanouoiio/fCC_Salon_project
+git push "//https:Hanouoiio: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@github.com/Hanouoiio/fCC_Salon_project"
+git remote -v
+pwd
+/ls
+ls --color=auto
+git status
+git init
+git add .
