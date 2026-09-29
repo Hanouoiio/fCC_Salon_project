@@ -63,3 +63,8 @@ git branch
 git fetch origin
 git checkout -b salon
 git add .
+git commit -m "Not that bad this time, was actually pretty fun"
+git push -u origin salon
+git push https://Hanouoiio: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@github.com/Hanouoiio/fCC_projects.git Salon
+git checkout -b Salon
+git add .
