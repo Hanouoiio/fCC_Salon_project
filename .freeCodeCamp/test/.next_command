@@ -68,3 +68,15 @@ git push -u origin salon
 git push https://Hanouoiio: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@github.com/Hanouoiio/fCC_projects.git Salon
 git checkout -b Salon
 git add .
+git commit -m "Not that bad this time, was actually pretty fun"
+git push https://Hanouoiio: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@github.com/Hanouoiio/fCC_projects.git Salon
+git push -u origin Salon --force
+git push https://Hanouoiio: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@github.com/Hanouoiio/fCC_projects.git Salon --force
+git push origin --delete Salon
+git push https://Hanouoiio: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@github.com/Hanouoiio/fCC_projects.git --delete Salon
+git push https://Hanouoiio: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@github.com/Hanouoiio/fCC_worldcup_project.git --delete Salon
+git remote add origin https://github.com/Hanouoiio/fCC_Salon_project
+git remote set-url "https://github.com/Hanouoiio/fCC_Salon_project"
+__vsc_prompt_cmd_original
+git remote set-url origin "https://github.com/Hanouoiio/fCC_Salon_project"
+git add .
