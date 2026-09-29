@@ -167,3 +167,14 @@ pwd
 ls --color=auto -la
 git init
 git add .
+git commit -m "Initial commit for Salon Scheduler"
+git branch -M main
+git push https://Hanouoiio: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@https://github.com/Hanouoiio/fCC_Salon_project main --force
+git push https://Hanouoiio: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@https://github.com/Hanouoiio/fCC_Salon_project.git main --force
+git remote -v
+git push -u origin main --force
+git push https://Hanouoiio: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@github.com/Hanouoiio/fCC_Salon_project main --force
+git push https://Hanouoiio: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@github.com/Hanouoiio/fCC_Salon_project main --force
+git push https://Hanouoiio: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@github.com/Hanouoiio/fCC_Salon_project main --force
+pg_dump --clean --inserts --username=freecodecamp --dbname=salon > salon.sql
+git add .
